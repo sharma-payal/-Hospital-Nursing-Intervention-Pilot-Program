@@ -40,17 +40,20 @@ Include both the data tables of interest and the appropriate joins between the t
 Use MySQL to draw the star schema.
 Be sure to label the fact table and dimension tables accordingly! You can add a text box above the tables in MySQL Workbench if you need to.
 File>Export your Star Schema as a .png image file and paste it into your .pdf document.
+
 6a. Analysis for leadership 
 
 Identify which hospitals have an Intensive Care Unit (ICU bed_id = 4) bed or a Surgical Intensive Care Unit (SICU bed_id = 15) bed or both.
+
 Create three summary reports that show the following:
-License beds: List of Top 10 Hospitals ordered descending by the total ICU or SICU license beds.
-Include just two variables:
-Hospital name (business_name)
-The total license bed count from above as one summary fact
-But include only 10 rows in your output table.
-Do the same thing for Census beds. List of Top 10 Hospitals ordered by total ICU or SICU census beds. Include just two variables: hospital name (business_name) and the total census beds from above, as one summary fact. Include only 10 rows again.
-Do the same thing for Staffed beds. List of Top 10 Hospitals ordered by the total ICU or SICU staffed beds. Include just two variables: hospital name (business_name) and the sum of staffed beds from above, as one summary fact. Include only 10 rows again.
+- License beds: List of Top 10 Hospitals ordered descending by the total ICU or SICU license beds.
+- Include just two variables:
+- Hospital name (business_name)
+- The total license bed count from above as one summary fact
+- But include only 10 rows in your output table.
+- Do the same thing for Census beds. List of Top 10 Hospitals ordered by total ICU or SICU census beds. Include just two variables: hospital name (business_name) and the total census beds from above, as one summary fact. Include only 10 rows again.
+- Do the same thing for Staffed beds. List of Top 10 Hospitals ordered by the total ICU or SICU staffed beds. Include just two variables: hospital name (business_name) and the sum of staffed beds from above, as one summary fact. Include only 10 rows again.
+
 6b. Interpretation of Findings 
 
 Based on your results from step 4a, discuss your insights from the data summary that you want to bring to the attention of leadership.
@@ -59,12 +62,14 @@ For example:
 
 What are the top one or two hospitals per list based on bed volume?
 Are there any hospitals that appear on multiple lists? They might make good candidates for the intervention pilot program.
+
 7a. Drill down investigation 
 
 Leadership is also interested in hospitals that have sufficient volume of both ICU and SICU beds, as opposed to either type of bed that you developed in step 4a.
 
 Conduct the same investigation as you did for 4a and list the same output of top 10 hospitals by descending bed volume, only this time select only those top 10 hospitals that have both kinds of ICU and SICU beds, i.e. only hospitals that have at least 1 ICU bed and at least 1 SICU bed.
 Conduct separate data investigations for census beds, license beds, and staffed beds (like step 4a).
+
 7b. Final recommendation 
 
 Based on your analyses in step 4a and 5a, state your final recommendation here for leadership as to which hospitals are the best candidates for their pilot intervention program. Remember, leadership has stated they are only interested in one or two hospitals for their pilot sites so it’s best to tailor your recommendation to their business needs and avoid unnecessary details that might confuse them.
